@@ -5,7 +5,8 @@ df
 free
 wirtulane kosole (terminale) - ctrl+alt+f1-f6
 zmiana wirtualnej konsoli - alt+f1-f6
-powrót do GUI - alt+f7
+powrót do GUI - alt+f7 - nie działa
+powrót do GUI - najlepiej ctrl+alt+f1
 cd lub "cd ~" - przejście do home directory
 "cd -" - zmiana na poprzedni working directory
 cd ~user - home directory wskazanego użytkownika
@@ -31,4 +32,3 @@ ls -l -h (--human-readable) - rozmiar pliku w czytelnej formie
 ls -S - sortowanie po rozmiarze
 ls -lSh - długi format, sortowanie po rozmiarze i do tego czytelny format
 // 48 - table 3.2
-
