@@ -1,0 +1,34 @@
+MMB-click - paste
+date
+cal
+df
+free
+wirtulane kosole (terminale) - ctrl+alt+f1-f6
+zmiana wirtualnej konsoli - alt+f1-f6
+powrót do GUI - alt+f7
+cd lub "cd ~" - przejście do home directory
+"cd -" - zmiana na poprzedni working directory
+cd ~user - home directory wskazanego użytkownika
+.nazwa - ukryte pliki, przeważnie konfiguracyjne
+rozszerzenia plików są nieistotne dla Linuksa - nie niosą one żadnej informacji o kontekście ani przeznaczeniu
+można dać ls do kilku folderów, np. ls . /usr
+ls -l - long format
+ls -lt - dodatkowo sortowanie po dacie modyfikacji
+ls -lt --reverse - odwrócenie powyższego sortowania
+ls -a (--all)
+ls -d (--directory) - informacje o katalogu
+ls -ld
+ls -F (--classify) - informacja o typie elementu, np. / doczepiony po nazwie
+wskaźniki z zestawu */=>@|
+/ is a directory
+@ is a symlink
+| is a named pipe (fifo)
+= is a socket.
+* for executable files
+> is for a "door" -- a file type currently not implemented for Linux, but supported on Sun/Solaris.
+Files not matching any of the above description are regular files and so get no indicator.
+ls -l -h (--human-readable) - rozmiar pliku w czytelnej formie
+ls -S - sortowanie po rozmiarze
+ls -lSh - długi format, sortowanie po rozmiarze i do tego czytelny format
+// 48 - table 3.2
+
